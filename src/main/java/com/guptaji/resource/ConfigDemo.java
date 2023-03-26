@@ -17,8 +17,8 @@ import java.util.List;
 @Produces(MediaType.TEXT_PLAIN)
 public class ConfigDemo {
     
-    @Inject
-    private CustomConfig customConfig;
+//    @Inject
+//    private CustomConfig customConfig;
 
     // Here if we will not define any property with key as 'made_easy' in application.properties then by default
     // 'Pratigya' will come in output.
